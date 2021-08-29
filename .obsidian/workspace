@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker container config.md",
-            "mode": "source"
+            "file": "Oculus Quest WASM memory Discord discussion.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker container config.md",
+                "file": "Oculus Quest WASM memory Discord discussion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,11 @@
   },
   "active": "d5e663a03f6d5f84",
   "lastOpenFiles": [
+    "Oculus Quest WASM memory Discord discussion.md",
+    "WebXR PWA Discord discussion.md",
+    "Untitled.md",
     "Docker container config.md",
     "Gitlab update permissions.md",
-    "Gitlab update version.md",
-    "Untitled.md"
+    "Gitlab update version.md"
   ]
 }

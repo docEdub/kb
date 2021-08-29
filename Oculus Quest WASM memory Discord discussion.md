@@ -1,3 +1,7 @@
+https://discord.com/channels/758943204715659264/805647111625375764/880609996277186590
+
+---
+
 ## docEdub _—_ 08/26/2021
 
 I think I'm hitting a WASM memory grow issue on the Quest 2 with this BabylonJS playground: [https://playground.babylonjs.com/#SY0NY5#5](https://playground.babylonjs.com/#SY0NY5#5 "https://playground.babylonjs.com/#SY0NY5#5") It works fine on desktop Chrome, but in Quest 2 browser it freezes during instrument allocation in the WASM synthesizer I'm using. If I pare down the memory usage a bit, it gets past the initial instrument allocations and works fine, but there seems to be some limit I'm hitting even though the OVR tool reports plenty of memory available overall.
@@ -306,10 +310,11 @@ This looks to be an issue with the synthesizer WASM's stack size. I've gotten it
 Cool, nice find.
 
 [[Csound]]
-[[Software Development]]
+[[Discord]]
 [[Oculus]]
 [[Quest]]
 [[Quest 2]]
+[[Software Development]]
 [[VR]]
 [[WASM]]
 [[WebXR]]
