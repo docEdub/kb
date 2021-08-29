@@ -1,0 +1,90 @@
+{
+  "main": {
+    "id": "2518c9b59ca3b21b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5e663a03f6d5f84",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "74d650e562f5ba37",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c1ec1cca34bbbaf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b612fe6ac040d46",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1ed38be32deeb7c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c409240d92cf07ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "11e50e25c6190aef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be3fee147c733047",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Docker container config.md",
+    "Gitlab update permissions.md",
+    "Gitlab update version.md",
+    "Untitled.md"
+  ]
+}
