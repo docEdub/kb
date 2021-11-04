@@ -16,7 +16,7 @@ This works with node 14.16.0 and npm 7.22.0
 - `npm run build:release:prod`
 - `npm login --publish`
 	- U: `doc.e.dub`
-	- P: `........`
+	- P: `...........`
 	- Email: `andy@docEdub.com`
 - `npm publish`
 
