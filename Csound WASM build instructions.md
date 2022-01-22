@@ -7,7 +7,7 @@ This works with node 14.16.0 and npm 7.22.0
 - Install Node and NPM.
 - Install nix. See https://nixos.org/download.html. The curl command works fine on Mac.
 - `cd wasm`
-- `npm build`
+- `npm run build`
 	- Builds the `csound-wasm` module which is libcsound compiled to WASM.
 - `npm link`??? I used to do `yarn link` here. Is `npm link` is the same?
 - `cd browser`
@@ -42,6 +42,17 @@ I haven't tried it yet, but the old `yarn` commands might work again now that th
 
 - To build a static WASM, change the wasm folder's package.json `build` script to `"build": "bash ./scripts/compile.static.sh",` and find/replace `@csound/wasm-bin/lib/csound.dylib.wasm.z` with `@csound/wasm-bin/lib/csound.wasm.z`.
 	- I couldn't get the static build to play any sound for some reason. I didn't investigate because I got the dynamic/plugin version working in the Quest 2 browser.
+
+- With Csound version 6.17 the nix package system needs to be reset.
+	- See https://github.com/csound/csound/issues/1572#issuecomment-1004337465.
+	- To reset nix, run these commands:
+	```
+	nix-channel --remove nixpkgs || true
+	nix-channel --add "https://github.com/NixOS/nixpkgs/archive/master.tar.gz" \
+		nixpkgs
+	nix-channel --update
+	nix-env -iA nixpkgs.nixUnstable
+	```
 ---
 
 [[Csound]]
