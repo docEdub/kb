@@ -53,6 +53,9 @@ I haven't tried it yet, but the old `yarn` commands might work again now that th
 	nix-channel --update
 	nix-env -iA nixpkgs.nixUnstable
 	```
+
+- With Csound version 6.17 the closure compiler step doesn't work with the official java download from Oracle. It works with the homebrew java (openjdk).
+
 ---
 
 [[Csound]]
